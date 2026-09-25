@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../.build/idea/Phase0_CommandLineArgs" />
+    <output-test url="file://$MODULE_DIR$/../../.build/idea-tests/Phase0_CommandLineArgs" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../examples/00-getting-started/05-arguments-explained">
+      <sourceFolder url="file://$MODULE_DIR$/../../examples/00-getting-started/05-arguments-explained" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

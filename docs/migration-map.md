@@ -1,0 +1,112 @@
+# Where everything moved
+
+[Home](../README.md)
+
+All 71 lessons retain their numbered filenames. All 21 Java sources and the old nested IDE settings were initially moved byte-for-byte. The long guide was split at phase headings without removing chapter text; its introduction is retained in the archive. Navigation and active run instructions were updated. No Java classes were renamed.
+
+Validation then found a compile error in `Phase3_Inheritance_Polymorphism.java`: a `Dog`-typed reference cannot be tested with `instanceof Cat`, because these are sibling classes. Its `dog2` reference now has the parent type `Animal`, preserving the intended true/true/false demonstration. This is the only Java source change; the other 20 sources remain byte-for-byte unchanged. A regression test checks the runtime type results and polymorphic dispatch.
+
+| Previous location | Current location |
+| --- | --- |
+| `SimpleJava_Opus/README.md` | [archive/original-overviews/simple-java.md](../archive/original-overviews/simple-java.md) |
+| `SimpleJava_Opus/lessons/01_What_Is_Programming.md` | [lessons/01-intro/01_What_Is_Programming.md](../lessons/01-intro/01_What_Is_Programming.md) |
+| `SimpleJava_Opus/lessons/02_What_Is_Java.md` | [lessons/01-intro/02_What_Is_Java.md](../lessons/01-intro/02_What_Is_Java.md) |
+| `SimpleJava_Opus/lessons/03_How_Java_Code_Runs.md` | [lessons/01-intro/03_How_Java_Code_Runs.md](../lessons/01-intro/03_How_Java_Code_Runs.md) |
+| `SimpleJava_Opus/lessons/04_JDK_JRE_JVM.md` | [lessons/01-intro/04_JDK_JRE_JVM.md](../lessons/01-intro/04_JDK_JRE_JVM.md) |
+| `SimpleJava_Opus/lessons/05_Installing_Java.md` | [lessons/01-intro/05_Installing_Java.md](../lessons/01-intro/05_Installing_Java.md) |
+| `SimpleJava_Opus/lessons/06_First_Java_Program.md` | [lessons/02-first-steps/06_First_Java_Program.md](../lessons/02-first-steps/06_First_Java_Program.md) |
+| `SimpleJava_Opus/lessons/07_Public_Class_Main.md` | [lessons/02-first-steps/07_Public_Class_Main.md](../lessons/02-first-steps/07_Public_Class_Main.md) |
+| `SimpleJava_Opus/lessons/08_Main_Method.md` | [lessons/02-first-steps/08_Main_Method.md](../lessons/02-first-steps/08_Main_Method.md) |
+| `SimpleJava_Opus/lessons/09_Statements.md` | [lessons/02-first-steps/09_Statements.md](../lessons/02-first-steps/09_Statements.md) |
+| `SimpleJava_Opus/lessons/10_Semicolons.md` | [lessons/02-first-steps/10_Semicolons.md](../lessons/02-first-steps/10_Semicolons.md) |
+| `SimpleJava_Opus/lessons/11_Comments.md` | [lessons/02-first-steps/11_Comments.md](../lessons/02-first-steps/11_Comments.md) |
+| `SimpleJava_Opus/lessons/12_Printing.md` | [lessons/02-first-steps/12_Printing.md](../lessons/02-first-steps/12_Printing.md) |
+| `SimpleJava_Opus/lessons/13_Values.md` | [lessons/03-values-types/13_Values.md](../lessons/03-values-types/13_Values.md) |
+| `SimpleJava_Opus/lessons/14_Strings.md` | [lessons/03-values-types/14_Strings.md](../lessons/03-values-types/14_Strings.md) |
+| `SimpleJava_Opus/lessons/15_Characters.md` | [lessons/03-values-types/15_Characters.md](../lessons/03-values-types/15_Characters.md) |
+| `SimpleJava_Opus/lessons/16_Numbers.md` | [lessons/03-values-types/16_Numbers.md](../lessons/03-values-types/16_Numbers.md) |
+| `SimpleJava_Opus/lessons/17_Booleans.md` | [lessons/03-values-types/17_Booleans.md](../lessons/03-values-types/17_Booleans.md) |
+| `SimpleJava_Opus/lessons/18_Variables.md` | [lessons/03-values-types/18_Variables.md](../lessons/03-values-types/18_Variables.md) |
+| `SimpleJava_Opus/lessons/19_Data_Types.md` | [lessons/03-values-types/19_Data_Types.md](../lessons/03-values-types/19_Data_Types.md) |
+| `SimpleJava_Opus/lessons/20_Var.md` | [lessons/03-values-types/20_Var.md](../lessons/03-values-types/20_Var.md) |
+| `SimpleJava_Opus/lessons/21_Operators.md` | [lessons/04-operators-control/21_Operators.md](../lessons/04-operators-control/21_Operators.md) |
+| `SimpleJava_Opus/lessons/22_Comparisons.md` | [lessons/04-operators-control/22_Comparisons.md](../lessons/04-operators-control/22_Comparisons.md) |
+| `SimpleJava_Opus/lessons/23_Logical_Operators.md` | [lessons/04-operators-control/23_Logical_Operators.md](../lessons/04-operators-control/23_Logical_Operators.md) |
+| `SimpleJava_Opus/lessons/24_If_Else.md` | [lessons/04-operators-control/24_If_Else.md](../lessons/04-operators-control/24_If_Else.md) |
+| `SimpleJava_Opus/lessons/25_Switch.md` | [lessons/04-operators-control/25_Switch.md](../lessons/04-operators-control/25_Switch.md) |
+| `SimpleJava_Opus/lessons/26_Loops.md` | [lessons/04-operators-control/26_Loops.md](../lessons/04-operators-control/26_Loops.md) |
+| `SimpleJava_Opus/lessons/27_Arrays.md` | [lessons/04-operators-control/27_Arrays.md](../lessons/04-operators-control/27_Arrays.md) |
+| `SimpleJava_Opus/lessons/28_Methods.md` | [lessons/05-methods/28_Methods.md](../lessons/05-methods/28_Methods.md) |
+| `SimpleJava_Opus/lessons/29_Parameters_Arguments.md` | [lessons/05-methods/29_Parameters_Arguments.md](../lessons/05-methods/29_Parameters_Arguments.md) |
+| `SimpleJava_Opus/lessons/30_Return_Values.md` | [lessons/05-methods/30_Return_Values.md](../lessons/05-methods/30_Return_Values.md) |
+| `SimpleJava_Opus/lessons/31_Scope.md` | [lessons/05-methods/31_Scope.md](../lessons/05-methods/31_Scope.md) |
+| `SimpleJava_Opus/lessons/32_Classes.md` | [lessons/06-oop-basics/32_Classes.md](../lessons/06-oop-basics/32_Classes.md) |
+| `SimpleJava_Opus/lessons/33_Objects.md` | [lessons/06-oop-basics/33_Objects.md](../lessons/06-oop-basics/33_Objects.md) |
+| `SimpleJava_Opus/lessons/34_Fields.md` | [lessons/06-oop-basics/34_Fields.md](../lessons/06-oop-basics/34_Fields.md) |
+| `SimpleJava_Opus/lessons/35_Methods_In_Classes.md` | [lessons/06-oop-basics/35_Methods_In_Classes.md](../lessons/06-oop-basics/35_Methods_In_Classes.md) |
+| `SimpleJava_Opus/lessons/36_Constructors.md` | [lessons/06-oop-basics/36_Constructors.md](../lessons/06-oop-basics/36_Constructors.md) |
+| `SimpleJava_Opus/lessons/37_This.md` | [lessons/06-oop-basics/37_This.md](../lessons/06-oop-basics/37_This.md) |
+| `SimpleJava_Opus/lessons/38_Access_Modifiers.md` | [lessons/06-oop-basics/38_Access_Modifiers.md](../lessons/06-oop-basics/38_Access_Modifiers.md) |
+| `SimpleJava_Opus/lessons/39_Static.md` | [lessons/06-oop-basics/39_Static.md](../lessons/06-oop-basics/39_Static.md) |
+| `SimpleJava_Opus/lessons/40_Final.md` | [lessons/06-oop-basics/40_Final.md](../lessons/06-oop-basics/40_Final.md) |
+| `SimpleJava_Opus/lessons/41_Packages.md` | [lessons/06-oop-basics/41_Packages.md](../lessons/06-oop-basics/41_Packages.md) |
+| `SimpleJava_Opus/lessons/42_Imports.md` | [lessons/06-oop-basics/42_Imports.md](../lessons/06-oop-basics/42_Imports.md) |
+| `SimpleJava_Opus/lessons/43_Strings_Detail.md` | [lessons/07-strings-collections/43_Strings_Detail.md](../lessons/07-strings-collections/43_Strings_Detail.md) |
+| `SimpleJava_Opus/lessons/44_String_Methods.md` | [lessons/07-strings-collections/44_String_Methods.md](../lessons/07-strings-collections/44_String_Methods.md) |
+| `SimpleJava_Opus/lessons/45_Wrapper_Classes.md` | [lessons/07-strings-collections/45_Wrapper_Classes.md](../lessons/07-strings-collections/45_Wrapper_Classes.md) |
+| `SimpleJava_Opus/lessons/46_ArrayList.md` | [lessons/07-strings-collections/46_ArrayList.md](../lessons/07-strings-collections/46_ArrayList.md) |
+| `SimpleJava_Opus/lessons/47_Collections.md` | [lessons/07-strings-collections/47_Collections.md](../lessons/07-strings-collections/47_Collections.md) |
+| `SimpleJava_Opus/lessons/48_HashMap.md` | [lessons/07-strings-collections/48_HashMap.md](../lessons/07-strings-collections/48_HashMap.md) |
+| `SimpleJava_Opus/lessons/49_HashSet.md` | [lessons/07-strings-collections/49_HashSet.md](../lessons/07-strings-collections/49_HashSet.md) |
+| `SimpleJava_Opus/lessons/50_Enhanced_For.md` | [lessons/07-strings-collections/50_Enhanced_For.md](../lessons/07-strings-collections/50_Enhanced_For.md) |
+| `SimpleJava_Opus/lessons/51_OOP_Basics.md` | [lessons/08-advanced-oop/51_OOP_Basics.md](../lessons/08-advanced-oop/51_OOP_Basics.md) |
+| `SimpleJava_Opus/lessons/52_Encapsulation.md` | [lessons/08-advanced-oop/52_Encapsulation.md](../lessons/08-advanced-oop/52_Encapsulation.md) |
+| `SimpleJava_Opus/lessons/53_Inheritance.md` | [lessons/08-advanced-oop/53_Inheritance.md](../lessons/08-advanced-oop/53_Inheritance.md) |
+| `SimpleJava_Opus/lessons/54_Super.md` | [lessons/08-advanced-oop/54_Super.md](../lessons/08-advanced-oop/54_Super.md) |
+| `SimpleJava_Opus/lessons/55_Method_Overriding.md` | [lessons/08-advanced-oop/55_Method_Overriding.md](../lessons/08-advanced-oop/55_Method_Overriding.md) |
+| `SimpleJava_Opus/lessons/56_Method_Overloading.md` | [lessons/08-advanced-oop/56_Method_Overloading.md](../lessons/08-advanced-oop/56_Method_Overloading.md) |
+| `SimpleJava_Opus/lessons/57_Abstract_Classes.md` | [lessons/08-advanced-oop/57_Abstract_Classes.md](../lessons/08-advanced-oop/57_Abstract_Classes.md) |
+| `SimpleJava_Opus/lessons/58_Interfaces.md` | [lessons/08-advanced-oop/58_Interfaces.md](../lessons/08-advanced-oop/58_Interfaces.md) |
+| `SimpleJava_Opus/lessons/59_Polymorphism.md` | [lessons/08-advanced-oop/59_Polymorphism.md](../lessons/08-advanced-oop/59_Polymorphism.md) |
+| `SimpleJava_Opus/lessons/60_Exceptions.md` | [lessons/09-errors-files/60_Exceptions.md](../lessons/09-errors-files/60_Exceptions.md) |
+| `SimpleJava_Opus/lessons/61_Try_Catch_Finally.md` | [lessons/09-errors-files/61_Try_Catch_Finally.md](../lessons/09-errors-files/61_Try_Catch_Finally.md) |
+| `SimpleJava_Opus/lessons/62_Checked_Unchecked.md` | [lessons/09-errors-files/62_Checked_Unchecked.md](../lessons/09-errors-files/62_Checked_Unchecked.md) |
+| `SimpleJava_Opus/lessons/63_File_IO.md` | [lessons/09-errors-files/63_File_IO.md](../lessons/09-errors-files/63_File_IO.md) |
+| `SimpleJava_Opus/lessons/64_Generics.md` | [lessons/10-advanced/64_Generics.md](../lessons/10-advanced/64_Generics.md) |
+| `SimpleJava_Opus/lessons/65_Enums.md` | [lessons/10-advanced/65_Enums.md](../lessons/10-advanced/65_Enums.md) |
+| `SimpleJava_Opus/lessons/66_Lambdas.md` | [lessons/10-advanced/66_Lambdas.md](../lessons/10-advanced/66_Lambdas.md) |
+| `SimpleJava_Opus/lessons/67_Streams.md` | [lessons/10-advanced/67_Streams.md](../lessons/10-advanced/67_Streams.md) |
+| `SimpleJava_Opus/lessons/68_Date_Time.md` | [lessons/10-advanced/68_Date_Time.md](../lessons/10-advanced/68_Date_Time.md) |
+| `SimpleJava_Opus/lessons/69_Debugging.md` | [lessons/10-advanced/69_Debugging.md](../lessons/10-advanced/69_Debugging.md) |
+| `SimpleJava_Opus/lessons/70_Unit_Testing.md` | [lessons/10-advanced/70_Unit_Testing.md](../lessons/10-advanced/70_Unit_Testing.md) |
+| `SimpleJava_Opus/lessons/71_Projects.md` | [lessons/10-advanced/71_Projects.md](../lessons/10-advanced/71_Projects.md) |
+| `java-basics/.idea/.gitignore` | [archive/legacy-ide/java-basics/.gitignore](../archive/legacy-ide/java-basics/.gitignore) |
+| `java-basics/.idea/Java_Basics.iml` | [archive/legacy-ide/java-basics/Java_Basics.iml](../archive/legacy-ide/java-basics/Java_Basics.iml) |
+| `java-basics/.idea/copilot.data.migration.ask2agent.xml` | [archive/legacy-ide/java-basics/copilot.data.migration.ask2agent.xml](../archive/legacy-ide/java-basics/copilot.data.migration.ask2agent.xml) |
+| `java-basics/.idea/misc.xml` | [archive/legacy-ide/java-basics/misc.xml](../archive/legacy-ide/java-basics/misc.xml) |
+| `java-basics/.idea/modules.xml` | [archive/legacy-ide/java-basics/modules.xml](../archive/legacy-ide/java-basics/modules.xml) |
+| `java-basics/CODE_INDEX.md` | [reference/code-index.md](../reference/code-index.md) |
+| `java-basics/CommandLineArguments.java` | [examples/00-getting-started/02-command-line-arguments/CommandLineArguments.java](../examples/00-getting-started/02-command-line-arguments/CommandLineArguments.java) |
+| `java-basics/HelloWorld.java` | [examples/00-getting-started/01-hello-world/HelloWorld.java](../examples/00-getting-started/01-hello-world/HelloWorld.java) |
+| `java-basics/Phase0_CommandLineArgs.java` | [examples/00-getting-started/05-arguments-explained/Phase0_CommandLineArgs.java](../examples/00-getting-started/05-arguments-explained/Phase0_CommandLineArgs.java) |
+| `java-basics/Phase0_HelloWorld.java` | [examples/00-getting-started/04-program-structure/Phase0_HelloWorld.java](../examples/00-getting-started/04-program-structure/Phase0_HelloWorld.java) |
+| `java-basics/Phase1_Arrays.java` | [examples/01-fundamentals/04-arrays/Phase1_Arrays.java](../examples/01-fundamentals/04-arrays/Phase1_Arrays.java) |
+| `java-basics/Phase1_ControlFlow.java` | [examples/01-fundamentals/03-control-flow/Phase1_ControlFlow.java](../examples/01-fundamentals/03-control-flow/Phase1_ControlFlow.java) |
+| `java-basics/Phase1_Operators.java` | [examples/01-fundamentals/02-operators/Phase1_Operators.java](../examples/01-fundamentals/02-operators/Phase1_Operators.java) |
+| `java-basics/Phase1_Variables.java` | [examples/01-fundamentals/01-variables/Phase1_Variables.java](../examples/01-fundamentals/01-variables/Phase1_Variables.java) |
+| `java-basics/Phase2_Methods.java` | [examples/02-methods-and-memory/01-methods/Phase2_Methods.java](../examples/02-methods-and-memory/01-methods/Phase2_Methods.java) |
+| `java-basics/Phase2_PassByValue.java` | [examples/02-methods-and-memory/02-pass-by-value/Phase2_PassByValue.java](../examples/02-methods-and-memory/02-pass-by-value/Phase2_PassByValue.java) |
+| `java-basics/Phase3_AbstractClasses.java` | [examples/03-object-oriented-programming/04-abstract-classes/Phase3_AbstractClasses.java](../examples/03-object-oriented-programming/04-abstract-classes/Phase3_AbstractClasses.java) |
+| `java-basics/Phase3_Classes_Objects.java` | [examples/03-object-oriented-programming/01-classes-and-objects/Phase3_Classes_Objects.java](../examples/03-object-oriented-programming/01-classes-and-objects/Phase3_Classes_Objects.java) |
+| `java-basics/Phase3_Encapsulation.java` | [examples/03-object-oriented-programming/02-encapsulation/Phase3_Encapsulation.java](../examples/03-object-oriented-programming/02-encapsulation/Phase3_Encapsulation.java) |
+| `java-basics/Phase3_Inheritance_Polymorphism.java` | [examples/03-object-oriented-programming/03-inheritance-and-polymorphism/Phase3_Inheritance_Polymorphism.java](../examples/03-object-oriented-programming/03-inheritance-and-polymorphism/Phase3_Inheritance_Polymorphism.java) |
+| `java-basics/Phase4_Interfaces.java` | [examples/04-language-features/01-interfaces/Phase4_Interfaces.java](../examples/04-language-features/01-interfaces/Phase4_Interfaces.java) |
+| `java-basics/Phase4_Static_Final.java` | [examples/04-language-features/02-static-and-final/Phase4_Static_Final.java](../examples/04-language-features/02-static-and-final/Phase4_Static_Final.java) |
+| `java-basics/Phase5_Collections.java` | [examples/05-collections/01-collections/Phase5_Collections.java](../examples/05-collections/01-collections/Phase5_Collections.java) |
+| `java-basics/Phase6_Exceptions.java` | [examples/06-exceptions-and-concurrency/01-exceptions/Phase6_Exceptions.java](../examples/06-exceptions-and-concurrency/01-exceptions/Phase6_Exceptions.java) |
+| `java-basics/Phase6_Threads.java` | [examples/06-exceptions-and-concurrency/02-threads/Phase6_Threads.java](../examples/06-exceptions-and-concurrency/02-threads/Phase6_Threads.java) |
+| `java-basics/Phase7_CodeQuality.java` | [examples/07-code-quality/01-code-quality/Phase7_CodeQuality.java](../examples/07-code-quality/01-code-quality/Phase7_CodeQuality.java) |
+| `java-basics/QUICK_REFERENCE.md` | [reference/quick-reference.md](../reference/quick-reference.md) |
+| `java-basics/README.md` | [archive/original-overviews/java-basics.md](../archive/original-overviews/java-basics.md) |
+| `java-basics/SimpleCalculation.java` | [examples/00-getting-started/03-simple-calculation/SimpleCalculation.java](../examples/00-getting-started/03-simple-calculation/SimpleCalculation.java) |
+| `java-basics/JAVA_LEARNING_GUIDE.md` | [Eight complete phase chapters](../guides/README.md) and [original introduction](../archive/original-overviews/guide-introduction.md) |

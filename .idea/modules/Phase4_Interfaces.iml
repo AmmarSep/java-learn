@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../.build/idea/Phase4_Interfaces" />
+    <output-test url="file://$MODULE_DIR$/../../.build/idea-tests/Phase4_Interfaces" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../examples/04-language-features/01-interfaces">
+      <sourceFolder url="file://$MODULE_DIR$/../../examples/04-language-features/01-interfaces" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

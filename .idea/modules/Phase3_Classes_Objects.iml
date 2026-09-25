@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../.build/idea/Phase3_Classes_Objects" />
+    <output-test url="file://$MODULE_DIR$/../../.build/idea-tests/Phase3_Classes_Objects" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../examples/03-object-oriented-programming/01-classes-and-objects">
+      <sourceFolder url="file://$MODULE_DIR$/../../examples/03-object-oriented-programming/01-classes-and-objects" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

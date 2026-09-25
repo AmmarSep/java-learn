@@ -3,6 +3,27 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-learn.iml" filepath="$PROJECT_DIR$/java-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CommandLineArguments.iml" filepath="$PROJECT_DIR$/.idea/modules/CommandLineArguments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleCalculation.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleCalculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase0_HelloWorld.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase0_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase0_CommandLineArgs.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase0_CommandLineArgs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase1_Variables.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase1_Variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase1_Operators.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase1_Operators.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase1_ControlFlow.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase1_ControlFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase1_Arrays.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase1_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase2_Methods.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase2_Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase2_PassByValue.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase2_PassByValue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase3_Classes_Objects.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase3_Classes_Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase3_Encapsulation.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase3_Encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase3_Inheritance_Polymorphism.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase3_Inheritance_Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase3_AbstractClasses.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase3_AbstractClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase4_Interfaces.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase4_Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase4_Static_Final.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase4_Static_Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase5_Collections.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase5_Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase6_Exceptions.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase6_Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase6_Threads.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase6_Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Phase7_CodeQuality.iml" filepath="$PROJECT_DIR$/.idea/modules/Phase7_CodeQuality.iml" />
     </modules>
   </component>
 </project>

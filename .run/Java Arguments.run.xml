@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Java Arguments" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Phase0_CommandLineArgs" />
+    <option name="PROGRAM_PARAMETERS" value="hello &quot;Java learner&quot;" />
+    <module name="Phase0_CommandLineArgs" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

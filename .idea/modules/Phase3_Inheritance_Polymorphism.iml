@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../.build/idea/Phase3_Inheritance_Polymorphism" />
+    <output-test url="file://$MODULE_DIR$/../../.build/idea-tests/Phase3_Inheritance_Polymorphism" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../examples/03-object-oriented-programming/03-inheritance-and-polymorphism">
+      <sourceFolder url="file://$MODULE_DIR$/../../examples/03-object-oriented-programming/03-inheritance-and-polymorphism" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

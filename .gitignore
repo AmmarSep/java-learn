@@ -1,0 +1,12 @@
+# Local build output and runtime artifacts
+.build/
+out/
+*.class
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Personal IntelliJ state; shared modules stay versioned
+.idea/workspace.xml
+.idea/shelf/
+.idea/httpRequests/

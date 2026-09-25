@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../.build/idea/Phase6_Threads" />
+    <output-test url="file://$MODULE_DIR$/../../.build/idea-tests/Phase6_Threads" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../examples/06-exceptions-and-concurrency/02-threads">
+      <sourceFolder url="file://$MODULE_DIR$/../../examples/06-exceptions-and-concurrency/02-threads" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
